@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/windowBackground</item>
+        <item name="android:windowBackground">
+            @drawable/background_splash
+        </item>
+    </style>
+
+    <style name="Judul" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="Judul.awal">
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="Judul.akhir">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="Isi.akhir">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="Isi" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="About" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="About.nama">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="About.email">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

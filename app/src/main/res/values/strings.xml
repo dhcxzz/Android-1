@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Forbes 10</string>
+    <string name="forbes_name">Nama Orang</string>
+    <string name="detail">Detail</string>
+    <string name="about">About</string>
+    <string name="home">10 Orang Terkaya</string>
+    <string name="syarif_hilmi_ramadhani">Syarif Hilmi Ramadhani</string>
+    <string name="dhonisy_gmail_com">dhonisy@gmail.com</string>
+    <string name="nama">Nama</string>
+    <string name="umur">Usia</string>
+    <string name="wealth">Sumber Kekayaan</string>
+    <string name="paragraf">Poin Penting</string>
+
+</resources>

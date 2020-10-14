@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            tools:src="@color/colorAccent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/judul_nama"
+                style="@style/Judul.awal"
+                android:text="@string/nama"
+                tools:ignore="MissingConstraints"
+                />
+            <TextView
+                android:id="@+id/nama"
+                style="@style/Isi"
+                android:text="@string/nama"
+                tools:ignore="MissingConstraints"
+                />
+
+            <TextView
+                android:id="@+id/judul_umur"
+                style="@style/Judul"
+                android:text="@string/umur"
+                tools:ignore="MissingConstraints"
+                />
+            <TextView
+                android:id="@+id/umur"
+                style="@style/Isi"
+                android:text="@string/umur"
+                tools:ignore="MissingConstraints"
+                 />
+
+            <TextView
+                android:id="@+id/judul_wealth"
+                style="@style/Judul"
+                android:text="@string/wealth"
+                tools:ignore="MissingConstraints"
+                />
+            <TextView
+                android:id="@+id/wealth"
+                style="@style/Isi"
+                android:text="@string/wealth"
+                tools:ignore="MissingConstraints"
+                 />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/judul_paragraf"
+        style="@style/Judul.akhir"
+        android:text="@string/paragraf"
+        tools:ignore="MissingConstraints"
+        />
+    <TextView
+        android:id="@+id/paragraf"
+        style="@style/Isi.akhir"
+        android:text="@string/paragraf"
+        tools:ignore="MissingConstraints"
+       />
+</LinearLayout>
